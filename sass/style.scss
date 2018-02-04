@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+
+$font: 'Open Sans', sans-serif;
+$primary: #131616;
+$background: #8dd3cd;
+$button: #ed8609;
+$hover: rgba(0, 0, 0, .5);
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: $font;
+	color: $primary;
+	background-color: $background;	
+}
+.container {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+h1 {
+	font-size: 45px;
+	font-weight: 600;
+	margin: 50px 0;
+}
+button {
+	font-size: 16px;	
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: $button;
+	padding: 10px 15px;
+	margin-right: 10px;
+	transition: .3s;
+
+	&:hover {
+		background-color: $hover;
+		cursor: pointer;
+	}
+}
+input {
+	font-size: 16px;
+	padding: 8px 13px;
+}
+h2 { 
+	font-size: 30px;
+	font-weight: 600;
+	margin: 50px 0 30px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	li {
+		margin-bottom: 30px;
+	
+		p {
+			font-size: 14px;
+			line-height: 80%;
+
+			&:first-of-type {
+				font-size: 20px;
+				font-weight: 600;
+				margin-top: 10px;
+			}
+			&:nth-of-type(2) {
+				font-style: italic;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) { 
+	button {
+		margin-bottom: 10px;
+	}
+}
