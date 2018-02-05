@@ -42,7 +42,7 @@ function showCountriesList(resp) {
 
         currencies = item.currencies.map(function(item) {
             return item.name;
-        }).join(', ');    
+        });    
 
         countries.push(
             $('<li>')            
