@@ -48,7 +48,6 @@ function showCountriesList(resp) {
             $('<li>')            
                 .append($('<img>').attr('src', item.flag).attr('width', 64))
                 .append($('<p>').text(item.name))
-                .append($('<p>').text('Background information: '))
                 .append($('<p>').text('Capital: ' + item.capital))
                 .append($('<p>').text('Land area: ' + item.area + ' km²'))
                 .append($('<p>').text('Population: ' + item.population))
