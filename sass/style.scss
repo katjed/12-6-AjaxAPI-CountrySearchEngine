@@ -2,6 +2,7 @@
 
 $font: 'Open Sans', sans-serif;
 $primary: #131616;
+$white: #fff;
 $background: #8dd3cd;
 $button: #ed8609;
 $hover: rgba(0, 0, 0, .5);
@@ -36,7 +37,7 @@ button {
 	font-weight: bold;	
 	border: none;
 	outline: none;
-	color: #fff;
+	color: $white;
 	background-color: $button;
 	margin-right: 10px;
 	transition: .3s;
