@@ -27,14 +27,18 @@ h1 {
 	font-weight: 600;
 	margin: 50px 0;
 }
+button, input {
+	font-size: 16px;	
+	height: 40px;
+	display: inline-block;
+	padding: 10px 15px;
+}
 button {
-	font-size: 16px;
 	font-weight: bold;	
 	border: none;
 	outline: none;
 	color: #fff;
 	background-color: $button;
-	padding: 10px 15px;
 	margin-right: 10px;
 	transition: .3s;
 
@@ -42,10 +46,6 @@ button {
 		background-color: $hover;
 		cursor: pointer;
 	}
-}
-input {
-	font-size: 16px;
-	padding: 8px 13px;
 }
 h2 { 
 	font-size: 30px;

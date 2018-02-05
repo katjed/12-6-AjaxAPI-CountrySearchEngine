@@ -24,14 +24,19 @@ h1 {
   margin: 50px 0;
 }
 
-button {
+button, input {
   font-size: 16px;
+  height: 40px;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+button {
   font-weight: bold;
   border: none;
   outline: none;
   color: #fff;
   background-color: #ed8609;
-  padding: 10px 15px;
   margin-right: 10px;
   transition: .3s;
 }
@@ -39,11 +44,6 @@ button {
 button:hover {
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
-}
-
-input {
-  font-size: 16px;
-  padding: 8px 13px;
 }
 
 h2 {
