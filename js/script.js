@@ -1,6 +1,7 @@
 var url = 'https://restcountries.eu/rest/v2/name/';
 var countriesList = $('#countries');
 
+$.support.cors = true;
 $('#search').click(searchCountries);
 $('#country-name').keyup(function(e) {
     if (e.keyCode === 13) {  // 13 - Enter
