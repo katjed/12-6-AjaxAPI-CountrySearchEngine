@@ -1,3 +1,3 @@
-task-12-6
+12-6-AjaxAPI-CountrySearchEngine
 
-https://katjed.github.io/task-12-6/
+https://katjed.github.io/12-6-AjaxAPI-CountrySearchEngine/
